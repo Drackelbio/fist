@@ -3,10 +3,39 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Number</title>
+	 <link rel="stylesheet" href="css/material.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <script src="js/material.min.js"></script>
 </head>
 <body>
-	<div>
-		<h2>
+	<!-- Simple header with fixed tabs. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+            mdl-layout--fixed-tabs">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Number</span>
+    </div>
+    <!-- Tabs -->
+    <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+      <a href="#fixed-tab-1" class="mdl-layout__tab is-active">CARDINAL NUMBER</a>
+      <a href="#fixed-tab-2" class="mdl-layout__tab">ORDINAL NUMBER</a>
+     
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Number</span>
+  </div>
+  <main class="mdl-layout__content">
+  	<!-- primero -->
+    <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+      <div class="page-content">
+      	<div class="mdl-grid">
+  <div class="mdl-cell mdl-cell--6-col">		
+  	
+  		 <h1>Numeros Cardinales</br></h1>
+  		 <h2>
 1 = One </br>
 2 = Two</br>
 3 = Three</br>
@@ -23,7 +52,11 @@
 14 = Fourteen</br>
 15 = Fifteen</br>
 16 = Sixteen</br>
-17 = Seventeen</br>
+</h2>
+</div>
+    <div class="mdl-cell mdl-cell--6-col">
+    	<h2>
+    	17 = Seventeen</br>
 18 = Eighteen</br>
 19 = Nineteen</br>
 20 = Twenty</br>
@@ -40,10 +73,21 @@
 80 = Eighty</br>
 90 = Ninety</br>
 100 = One hundred</br>
-1000 = One thousand</br></h2>
-	</div>
-	<div>
-		<h2>
+1000 = One thousand</br>
+</h2>
+    </div>
+
+</div>
+      </div>
+    </section>
+    	<!-- segundo -->
+    <section class="mdl-layout__tab-panel" id="fixed-tab-2">
+      <div class="page-content">
+      	<div class="mdl-grid">
+  <div class="mdl-cell mdl-cell--6-col">
+  			
+  			<h1>Ordinal Number</h1>
+  			<h2>
 1st = First</br>
 2nd = Second</br>
 3rd = Third</br>
@@ -60,7 +104,11 @@
 14th = Fourteenth</br>
 15th = Fifteenth</br>
 16th = Sixteenth</br>
-17th = Seventeenth</br>
+</h2>
+  </div>
+
+  <div class="mdl-cell mdl-cell--6-col">
+ <h2> 	17th = Seventeenth</br>
 18th = Eighteenth</br>
 19th = Nineteenth</br>
 20th = Twentieth</br>
@@ -79,6 +127,13 @@
 100th = One Hundredth</br>
 1.000th = One Thousandth</br>
          </h2>
-	</div>
+  </div>
+</div>
+      </div>
+    </section>
+   
+  </main>
+</div>
+	
 </body>
 </html>
